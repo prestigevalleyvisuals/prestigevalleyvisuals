@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pvv-black: #050505;
+  --pvv-gold: #BAA054;
+  --pvv-gold-light: #EED97B;
+  --pvv-gold-dark: #92783A;
+  --pvv-offwhite: #F2F2F2;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(900px 600px at 20% 0%, rgba(186, 160, 84, 0.08), transparent 50%),
+    radial-gradient(900px 600px at 80% 10%, rgba(238, 217, 123, 0.06), transparent 55%),
+    linear-gradient(180deg, rgba(5, 5, 5, 1) 0%, rgba(7, 7, 7, 1) 60%, rgba(5, 5, 5, 1) 100%);
+  color: var(--pvv-offwhite);
+}
+
+::selection {
+  background: rgba(186, 160, 84, 0.35);
+}
+
+/* Utility classes */
+.pvv-container {
+  @apply mx-auto w-full max-w-6xl px-4;
+}
+
+.pvv-card {
+  @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm;
+}
+
+.pvv-card-hover {
+  @apply transition hover:border-pvv-gold/40 hover:shadow-glow;
+}
+
+.pvv-grad-text {
+  background: linear-gradient(90deg, var(--pvv-gold), var(--pvv-gold-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.pvv-button {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition;
+}
+
+.pvv-button-primary {
+  @apply pvv-button bg-pvv-gold text-black hover:bg-pvv-goldLight;
+}
+
+.pvv-button-ghost {
+  @apply pvv-button border border-white/15 bg-white/5 text-white hover:border-pvv-gold/40 hover:bg-white/10;
+}
+
+.pvv-pill {
+  @apply inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs;
+}
+
+.pvv-divider {
+  @apply my-10 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent;
+}
