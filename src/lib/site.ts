@@ -366,20 +366,20 @@ export const PORTFOLIO = {
   business: [
     {
       id: 'biz-1',
-      title: 'Business Promo (23rd St)',
+      title: 'Business Promo — 23rd St',
       kind: 'video' as const,
       src: '/portfolio/business/final-23rd-st.mp4',
-      poster: '/portfolio/business/port2.jpg'
+      poster: '/portfolio/business/port3.jpg'
     },
     {
       id: 'biz-2',
-      title: 'Social Photo (Portrait)',
+      title: 'Lux Lounge — Event Photo',
       kind: 'image' as const,
       src: '/portfolio/business/port2.jpg'
     },
     {
       id: 'biz-3',
-      title: 'Social Photo (Portrait)',
+      title: 'Lux Lounge — Portrait',
       kind: 'image' as const,
       src: '/portfolio/business/port3.jpg'
     }
@@ -387,7 +387,7 @@ export const PORTFOLIO = {
   realEstate: [
     {
       id: 're-1',
-      title: 'Listing Walkthrough',
+      title: 'Drone Footage',
       kind: 'video' as const,
       src: '/portfolio/realestate/house1.mp4',
       poster: '/portfolio/realestate/house1-poster.jpg'
@@ -406,27 +406,27 @@ export const PORTFOLIO = {
     },
     {
       id: 're-4',
-      title: 'Exterior Photo (Night)',
+      title: 'Exterior Night Shot',
       kind: 'image' as const,
       src: '/portfolio/realestate/house3.png'
     },
     {
       id: 're-5',
-      title: 'Alexandras Plaza  Framing & Trenching',
+      title: 'Alexandras Plaza — Construction',
       kind: 'video' as const,
       src: '/portfolio/realestate/alexandras-plaza.mp4',
-      poster: '/portfolio/realestate/re-deck-patio.jpg'
+      poster: '/portfolio/realestate/house3.png'
     },
     {
       id: 're-6',
-      title: 'Valentines Real Estate Showcase',
+      title: 'Valentines Showcase',
       kind: 'video' as const,
       src: '/portfolio/realestate/valentines.mp4',
-      poster: '/portfolio/realestate/re-pool.jpg'
+      poster: '/portfolio/realestate/house1-poster.jpg'
     },
     {
       id: 're-7',
-      title: 'Listing Walkthrough',
+      title: 'Edinburg Walkthrough',
       kind: 'video' as const,
       src: '/portfolio/realestate/house4.mp4',
       poster: '/portfolio/realestate/house4-poster.jpg'
