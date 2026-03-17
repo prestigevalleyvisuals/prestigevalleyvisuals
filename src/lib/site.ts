@@ -371,7 +371,7 @@ export const PORTFOLIO = {
       title: 'Business Promo — 23rd St',
       kind: 'video' as const,
       src: '/portfolio/business/final-23rd-st.mp4',
-      poster: '/portfolio/business/port3.jpg'
+      poster: '/portfolio/business/final-23rd-st-poster.jpg'
     },
     {
       id: 'biz-2',
@@ -392,7 +392,7 @@ export const PORTFOLIO = {
       title: 'Drone Footage',
       kind: 'video' as const,
       src: '/portfolio/realestate/house1.mp4',
-      poster: '/portfolio/realestate/house1-poster.jpg'
+      poster: '/portfolio/realestate/house1-poster-new.jpg'
     },
     {
       id: 're-2',
@@ -417,21 +417,21 @@ export const PORTFOLIO = {
       title: 'Alexandras Plaza — Construction',
       kind: 'video' as const,
       src: '/portfolio/realestate/alexandras-plaza.mp4',
-      poster: '/portfolio/realestate/re-deck-patio.jpg'
+      poster: '/portfolio/realestate/alexandras-plaza-poster.jpg'
     },
     {
       id: 're-6',
       title: 'Valentines Showcase',
       kind: 'video' as const,
       src: '/portfolio/realestate/valentines.mp4',
-      poster: '/portfolio/realestate/re-pool.jpg'
+      poster: '/portfolio/realestate/valentines-poster.jpg'
     },
     {
       id: 're-7',
       title: 'Edinburg Walkthrough',
       kind: 'video' as const,
       src: '/portfolio/realestate/house4.mp4',
-      poster: '/portfolio/realestate/house4-poster.jpg'
+      poster: '/portfolio/realestate/house4-poster-new.jpg'
     }
   ]
 };
