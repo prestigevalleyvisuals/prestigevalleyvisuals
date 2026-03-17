@@ -1,4 +1,4 @@
-hexport const SITE = {
+export const SITE = {
   name: 'Prestige Valley Visuals',
   tagline: 'Cinematic visuals for real estate & modern brands',
   foundersPricing: 'Founders pricing (limited spots)',
