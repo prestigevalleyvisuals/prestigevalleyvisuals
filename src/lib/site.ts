@@ -6,8 +6,8 @@ export const SITE = {
   phone: '9569357771',
   phoneDisplay: '(956) 935-7771',
   calendly: {
-    business: 'https://calendly.com/jarvis-pvv/30min',
-    realEstate: 'https://calendly.com/jarvis-pvv/30min'
+    business: 'https://calendly.com/prestigevalleyvisuals/30-minute-meeting-clone',
+    realEstate: 'https://calendly.com/prestigevalleyvisuals/30-minute-meeting-clone'
   },
   serviceArea: 'RGV & Surrounding Areas'
 } as const;
