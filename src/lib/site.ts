@@ -366,10 +366,10 @@ export const PORTFOLIO = {
   business: [
     {
       id: 'biz-1',
-      title: 'Lifestyle / Nightlife Content',
+      title: 'Business Promo (23rd St)',
       kind: 'video' as const,
-      src: '/portfolio/business/port1.mp4',
-      poster: '/portfolio/business/port1-poster.jpg'
+      src: '/portfolio/business/final-23rd-st.mp4',
+      poster: '/portfolio/business/port2.jpg'
     },
     {
       id: 'biz-2',
@@ -394,18 +394,38 @@ export const PORTFOLIO = {
     },
     {
       id: 're-2',
-      title: 'Exterior Photo (Day)',
+      title: 'Property Deck & Pool Area',
       kind: 'image' as const,
-      src: '/portfolio/realestate/house2.jpg'
+      src: '/portfolio/realestate/re-deck-patio.jpg'
     },
     {
       id: 're-3',
+      title: 'Pool & Covered Patio',
+      kind: 'image' as const,
+      src: '/portfolio/realestate/re-pool.jpg'
+    },
+    {
+      id: 're-4',
       title: 'Exterior Photo (Night / Mood)',
       kind: 'image' as const,
       src: '/portfolio/realestate/house3.png'
     },
     {
-      id: 're-4',
+      id: 're-5',
+      title: 'Alexandras Plaza — Framing & Trenching',
+      kind: 'video' as const,
+      src: '/portfolio/realestate/alexandras-plaza.mp4',
+      poster: '/portfolio/realestate/re-deck-patio.jpg'
+    },
+    {
+      id: 're-6',
+      title: 'Valentines Real Estate Showcase',
+      kind: 'video' as const,
+      src: '/portfolio/realestate/valentines.mp4',
+      poster: '/portfolio/realestate/re-pool.jpg'
+    },
+    {
+      id: 're-7',
       title: 'Listing Walkthrough (Preview)',
       kind: 'video' as const,
       src: '/portfolio/realestate/house4.mp4',
