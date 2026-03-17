@@ -387,14 +387,14 @@ export const PORTFOLIO = {
   realEstate: [
     {
       id: 're-1',
-      title: 'Listing Walkthrough (Preview)',
+      title: 'Listing Walkthrough',
       kind: 'video' as const,
       src: '/portfolio/realestate/house1.mp4',
       poster: '/portfolio/realestate/house1-poster.jpg'
     },
     {
       id: 're-2',
-      title: 'Property Deck & Pool Area',
+      title: 'Property Deck & Patio',
       kind: 'image' as const,
       src: '/portfolio/realestate/re-deck-patio.jpg'
     },
@@ -406,13 +406,13 @@ export const PORTFOLIO = {
     },
     {
       id: 're-4',
-      title: 'Exterior Photo (Night / Mood)',
+      title: 'Exterior Photo (Night)',
       kind: 'image' as const,
       src: '/portfolio/realestate/house3.png'
     },
     {
       id: 're-5',
-      title: 'Alexandras Plaza — Framing & Trenching',
+      title: 'Alexandras Plaza  Framing & Trenching',
       kind: 'video' as const,
       src: '/portfolio/realestate/alexandras-plaza.mp4',
       poster: '/portfolio/realestate/re-deck-patio.jpg'
@@ -426,7 +426,7 @@ export const PORTFOLIO = {
     },
     {
       id: 're-7',
-      title: 'Listing Walkthrough (Preview)',
+      title: 'Listing Walkthrough',
       kind: 'video' as const,
       src: '/portfolio/realestate/house4.mp4',
       poster: '/portfolio/realestate/house4-poster.jpg'
