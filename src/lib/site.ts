@@ -362,14 +362,15 @@ export const REAL_ESTATE_ADD_ONS: { name: string; price: string; note?: string }
   { name: 'Rush delivery', price: '$50', note: 'Subject to availability' }
 ];
 
-export const PORTFOLIO = {
+
+ export const PORTFOLIO = {
   business: [
     {
       id: 'biz-1',
       title: 'Business Promo — 23rd St',
       kind: 'video' as const,
       src: '/portfolio/business/final-23rd-st.mp4',
-      poster: '/portfolio/business/port3.jpg'
+      poster: '/portfolio/business/port2.jpg'
     },
     {
       id: 'biz-2',
@@ -415,21 +416,21 @@ export const PORTFOLIO = {
       title: 'Alexandras Plaza — Construction',
       kind: 'video' as const,
       src: '/portfolio/realestate/alexandras-plaza.mp4',
-      poster: '/portfolio/realestate/house3.png'
+      poster: '/portfolio/realestate/house2.jpg'
     },
     {
       id: 're-6',
       title: 'Valentines Showcase',
       kind: 'video' as const,
       src: '/portfolio/realestate/valentines.mp4',
-      poster: '/portfolio/realestate/house1-poster.jpg'
+      poster: '/portfolio/realestate/house4-poster.jpg'
     },
     {
       id: 're-7',
       title: 'Edinburg Walkthrough',
       kind: 'video' as const,
       src: '/portfolio/realestate/house4.mp4',
-      poster: '/portfolio/realestate/house4-poster.jpg'
+      poster: '/portfolio/realestate/house2.jpg'
     }
   ]
 };
