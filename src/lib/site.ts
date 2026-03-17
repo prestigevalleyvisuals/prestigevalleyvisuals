@@ -1,4 +1,4 @@
-export const SITE = {
+hexport const SITE = {
   name: 'Prestige Valley Visuals',
   tagline: 'Cinematic visuals for real estate & modern brands',
   foundersPricing: 'Founders pricing (limited spots)',
@@ -6,8 +6,8 @@ export const SITE = {
   phone: '9569357771',
   phoneDisplay: '(956) 935-7771',
   calendly: {
-    business: 'https://calendly.com/prestigevalleyvisuals/30-minute-meeting-clone',
-    realEstate: 'https://calendly.com/prestigevalleyvisuals/30min'
+    business: 'https://calendly.com/prestigevalleyvihsuals/30-minute-meeting-clone',
+    realEstate: 'https://calendly.com/prestigevalleyvihsuals/30-minute-meeting-clone'
   },
   serviceArea: 'RGV & Surrounding Areas'
 } as const;
